@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MODE=$(cvt 1280 800 | grep -v "#" | cut -d' ' -f2-)
+xrandr --newmode $MODE
+xrandr --addmode VGA1 $(echo $MODE | awk {'print $1'})
