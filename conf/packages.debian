@@ -1,13 +1,12 @@
-xmonad
 vim
+gvim
 git
 ack-grep
 tree
 terminator
 curl
-irssi
 chromium-browser
-ctags
+cmake
 ipython
 openjdk-7-jdk
 maven2
