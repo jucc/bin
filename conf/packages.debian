@@ -4,8 +4,11 @@ vim-gnome
 tree
 terminator
 ipython
+python-pip
+python-numpy
+python-scipy
+python-matplotlib
 ack-grep
 curl
 cmake
 openjdk-7-jdk
-
