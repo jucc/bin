@@ -6,5 +6,6 @@ export MVN_HOME=/usr/share/maven2
 export IDEA_HOME=~/apps/idea
 export ANDROID_HOME=~/apps/androidSDK
 
-export PATH=~/bin:$PATH:$JAVA_HOME/bin:$MVN_HOME/bin:$IDEA_HOME/bin:$ANDROID_HOME/bin
-
+export PATH=~/bin:$PATH:$JAVA_HOME/bin:$MVN_HOME/bin:$IDEA_HOME/bin:$ANDROID_HOME/bin:$HOME/.node/bin:$HOME/.linuxbrew/bin
+export MANPATH=$HOME/.linuxbrew/share/man:$MANPATH
+export INFOPATH=$HOME/.linuxbrew/share/info:$INFOPATH

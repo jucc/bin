@@ -1,13 +1,14 @@
 git
 vim
 vim-gnome
-tree
-terminator
 ipython
 python-pip
 python-numpy
 python-scipy
 python-matplotlib
+r-base
+tree
+terminator
 ack-grep
 curl
 cmake
