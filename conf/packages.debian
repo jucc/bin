@@ -7,9 +7,10 @@ python-numpy
 python-scipy
 python-matplotlib
 r-base
+octave
 tree
 terminator
 ack-grep
 curl
 cmake
-openjdk-7-jdk
+openjdk-8-jdk
