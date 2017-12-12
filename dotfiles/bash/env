@@ -1,14 +1,10 @@
 export EDITOR="vim"
 export PATH=~/bin:$PATH
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
-export MVN_HOME=/usr/share/maven2
+export JAVA_HOME=/usr/lib/jvm/java-9-openjdk-amd64/jre
 export IDEA_HOME=~/apps/idea
-export ANDROID_HOME=~/apps/androidSDK
-
-export PATH=$PATH:$JAVA_HOME/bin:$MVN_HOME/bin:$IDEA_HOME/bin:$ANDROID_HOME/bin:$HOME/.node/bin:$HOME/.linuxbrew/bin
-export MANPATH=$HOME/.linuxbrew/share/man:$MANPATH
-export INFOPATH=$HOME/.linuxbrew/share/info:$INFOPATH
+export ANDROID_HOME=~/apps/android-studio
+export PATH=$PATH:$JAVA_HOME/bin:$IDEA_HOME/bin:$ANDROID_HOME/bin
 
 export CUDNNHOME=~/apps/cuda
 export CUDNNLIB=$CUDNNHOME/lib64 
